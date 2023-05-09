@@ -51,7 +51,7 @@ const Home = () => {
                   <img src={FranceFlag} alt="Flag France" className="w-24 h-24 pointer-events-none cursor-pointer" />
                 </button>
               </div>
-              <p className="fixed bottom-4">Made by <a href="https://plutodesign.xyz" className="text-blue-600">Pluto Design</a></p>
+              {/* <p className="fixed bottom-4">Made by <a href="https://plutodesign.xyz" className="text-blue-600">Pluto Design</a></p> */}
             </div>
           </div>
         </section>
