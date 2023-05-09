@@ -1,3 +1,4 @@
+import Links from "../../assets/data/Links"
 import { useTranslate } from "../../hooks/useTranslate"
 
 const OfferModal = () => {
@@ -9,17 +10,17 @@ const OfferModal = () => {
                 <OfferCard 
                     description={t.offerModal.translation}
                     title="TRANSLATION" 
-                    to="mailto:contact@plutodesign.xyz" 
+                    to={`mailto:${Links.email}?subject=Translation`}
                 />
                 <OfferCard 
                     description={t.offerModal.proofreading}
                     title="PROOFREADING" 
-                    to="mailto:contact@plutodesign.xyz" 
+                    to={`mailto:${Links.email}?subject=Proofreading`}
                 />
                 <OfferCard 
                     description={t.offerModal.subtitling}
                     title="SUBTITLING" 
-                    to="mailto:contact@plutodesign.xyz" 
+                    to={`mailto:${Links.email}?subject=Subtitling`} 
                 />
             </div>
         </section>

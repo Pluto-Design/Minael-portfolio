@@ -17,8 +17,7 @@ export const LangData = {
         "contactModal": {
             "emailMe": "Email me!",
             "linkedin": "LinkedIn",
-            "facebook": "Facebook",
-            "instagram": "Instagram",
+            "discord": "Discord",
             "contact": "Contact"
         },
         "offerModal": {

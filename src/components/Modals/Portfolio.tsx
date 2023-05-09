@@ -19,7 +19,7 @@ const PortfolioCard = ({ title, description, bgImage, date }: { title: string, d
                 <div className="flex items-start flex-col w-full h-full justify-center opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-200">
                     <p className={`text-4xl font-bold pt-8 text-center w-full font-source`}>{title}</p>
                     <div className="w-full h-full flex flex-1 justify-center items-center px-8">
-                        <p className={`text-base font-bold text-center w-full max-h-full scrollbar-hidden overflow-y-scroll font-source`}>{description}</p>
+                        <p className={`text-sm wd:text-base font-bold text-center w-full max-h-full scrollbar-hidden overflow-y-scroll font-source`}>{description}</p>
                     </div>
                 </div>
             </div>
